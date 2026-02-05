@@ -316,3 +316,19 @@ h2 {
     transform: scale(1.05);
     background: var(--secondary-color);
 } 
+
+/* 📱 Mobile Optimizations */
+@media (max-width: 600px) {
+    .photo-card img {
+      height: 200px;
+    }
+  
+    .photo-card p {
+      font-size: 13px;
+    }
+  
+    .section h2 {
+      font-size: 20px;
+    }
+  }
+  
